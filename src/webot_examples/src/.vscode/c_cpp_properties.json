@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/suengsu/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/suengsu/catkin_ws/src/racecar/ackermann_cmd_mux/include/**",
+        "/home/suengsu/catkin_ws/src/test_package/include/**",
+        "/home/suengsu/catkin_ws/src/vesc/vesc_ackermann/include/**",
+        "/home/suengsu/catkin_ws/src/vesc/vesc_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

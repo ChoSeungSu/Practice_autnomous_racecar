@@ -1,0 +1,8 @@
+<launch>
+    <node name= "camera_example" type="calibrate.py" pkg="webot_examples" output="log">
+    </node>
+    <node name="lidar_example" type="lidar_example.py" pkg="webot_examples" output="log"/>
+    <node name="control_example" type="control_example.py" pkg="webot_examples" output="screen"/>
+    <!-- <include file="/home/suengsu/catkin_ws/src/racecar/racecar/launch/teleop.launch"/> -->
+    <include file="$(find wego)/launch/teleop.launch" />
+</launch>

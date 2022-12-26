@@ -1,0 +1,8 @@
+prefix=/home/wego/catkin_ws/devel
+
+Name: webot_examples
+Description: Description of webot_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
